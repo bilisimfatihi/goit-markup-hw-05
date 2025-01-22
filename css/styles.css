@@ -746,6 +746,9 @@ footer .container .subscribe-p {
 .modal-form-div{
     margin-bottom: 8px;
 }
+.modal-form-div-pp{
+margin-bottom: 24px;
+}
 .form-label{
     font-size: 12px;
     line-height: 1.17;
@@ -778,8 +781,11 @@ footer .container .subscribe-p {
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-input:focus .form-item-ico{
+.form-input:focus.form-item-ico{
     fill: #4D5AE5;
+}
+.form-comment-div{
+margin-bottom: 16px;
 }
 .form-comment{
     width: 100%;
