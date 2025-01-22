@@ -823,7 +823,7 @@ margin-bottom: 16px;
     fill: transparent;
 
 }
-.form-cbox-pp:checked + .form-span-pp{
+.form-cbox-pp:checked + label .form-span-pp{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
