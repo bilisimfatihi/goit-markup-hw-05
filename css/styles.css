@@ -625,4 +625,44 @@ footer .container .social-icon-footer .social-list .social-link .s-link:focus {
 footer .container .social-icon-footer .social-list .social-link .s-link .icon-social {
     fill: #f4f4fd;
 }
+
+footer .container .subscribe-p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.subscribe-footer input{
+    background-color: #2E2F42;
+    width: 268px;
+    height: 40px;
+    border: 1px solid white;
+    color: white;
+    font-size: 12px;
+}
+.subscribe-footer-btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    color: white;
+    cursor: pointer;
+    display: block;
+    min-width: 165px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.subscribe-footer{
+    margin-left: 80px;
+}
+.subscribe-footer form{
+    display: flex;
+    gap:24px;
+}
 /* FOOTER */
