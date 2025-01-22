@@ -453,14 +453,19 @@
         </div>
         <div class="subscribe-footer">
           <p class="subscribe-p">Subscribe</p>
-          <form>
-            <label>
-              <input type="email" name="email" placeholder="E-mail" />
+          <form class="subscribe-footer-form">
+            <label class="form-label">
+              <input
+                type="email"
+                name="email"
+                placeholder="E-mail"
+                class="form-email"
+              />
             </label>
             <button type="submit" class="subscribe-footer-btn">
               Subscribe
-              <svg width="24" height="24">
-                <use href="./images/icons.svg#tw"></use>
+              <svg width="24" height="24" class="ico-send">
+                <use href="./images/icons.svg#send"></use>
               </svg>
             </button>
           </form>
@@ -468,5 +473,80 @@
       </div>
     </footer>
     <!-- Footer Bitişi -->
+    <!-- Modal -->
+    <div id="modal-window" class="modal">
+      <div class="modal-container">
+        <p class="modal-p">Leave your contacts and we will call you back</p>
+        <button type="button" class="modal-btn">
+          <svg width="8" height="8" class="ico-close">
+            <use href="./images/icons.svg#close"></use>
+          </svg>
+        </button>
+        <form>
+          <div class="modal-form-div">
+            <label for="user-name" class="form-label">Name</label>
+            <div class="form-item">
+              <input
+                id="user-name"
+                name="user-name"
+                type="text"
+                class="form-input"
+              />
+              <svg width="18" height="24" class="form-item-ico">
+                <use href="./images/icons.svg#person"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-form-div">
+            <label for="phone" class="form-label">Phone</label>
+            <div class="form-item">
+              <input id="phone" name="phone" type="text" class="form-input" />
+              <svg width="18" height="24" class="form-item-ico">
+                <use href="./images/icons.svg#phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-form-div">
+            <label for="email" class="form-label">E-mail</label>
+            <div class="form-item">
+              <input id="email" name="email" type="text" class="form-input" />
+              <svg width="18" height="24" class="form-item-ico">
+                <use href="./images/icons.svg#email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-form-div">
+            <label for="user-comment" class="form-label">Comment</label>
+            <div class="form-item">
+              <textarea
+                id="user-comment"
+                name="user-comment"
+                placeholder="Text input"
+                class="form-comment"
+              ></textarea>
+            </div>
+          </div>
+          <div class="modal-form-div">
+            <input
+              id="user-privacy"
+              type="checkbox"
+              value="True"
+              name="form-input user-privacy"
+              class="form-cbox-pp visually-hidden"
+            />
+            <label for="user-privacy" class="form-label-user-privacy"
+              ><span class="form-span-pp"
+                ><svg width="10" height="8" class="form-item-ico">
+                  <use href="./images/icons.svg#email"></use></svg></span
+              >I accept the terms and conditions of the<a class="form-pp-link">
+                Privacy Policy</a
+              ></label
+            >
+          </div>
+          <button class="modal-btn-send">Send</button>
+        </form>
+      </div>
+    </div>
+    <!-- Modal Bitişi-->
   </body>
 </html>
